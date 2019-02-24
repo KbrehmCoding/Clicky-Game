@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/navbar/navbar';
+import Game from './components/Game/Game'
+import Footer from './components/Footer/Footer'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div class="appContainer">
+          <Nav/>
+          <Game />
+          <Footer/>
 
-        </header>
       </div>
+
     );
   }
 }
