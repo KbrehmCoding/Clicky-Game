@@ -6,12 +6,58 @@
     },
     {
         "id": 2,
-        "image": "/public/img/D7.jpeg",
+        "image": "/public/img/D2.png",
         "clicked": false
     },
     {
         "id": 3,
+        "image": "/public/img/D3.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/public/img/D4.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/public/img/D5.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/public/img/D6.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/public/img/D7.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 8,
         "image": "/public/img/D8.jpeg",
         "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/public/img/D9.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/public/img/D10.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/public/img/D11.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/public/img/D12.jpg",
+        "clicked": false
     }
+
 ]
