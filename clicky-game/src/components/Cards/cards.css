@@ -1,0 +1,9 @@
+.card .card-image img {
+    width: 200px;
+};
+
+.div .card-image {
+    /* float: left; */
+    width: 50px !important;
+    height: 100px !important;
+};

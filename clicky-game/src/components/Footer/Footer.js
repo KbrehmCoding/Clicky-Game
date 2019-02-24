@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './Footer.css';
+import { Footer } from 'react-materialize'
 
-class Footer extends Component {
+class Foot extends Component {
     render() {
-        return(
-            <div>Footer</div>
+        return (
+            <Footer className="Footer" copyrights="&copy 2019 Copyright Text">
+                <h5 className="white-text"> I hope you enjoy the game!!!</h5>
+            </Footer>
         )
     }
 }
 
-export default Footer;
+export default Foot;

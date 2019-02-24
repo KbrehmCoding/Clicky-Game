@@ -1,3 +1,11 @@
-.nav {
-        background-color: blue;
+.Navbar {
+    background-color: purple !important;
+    height: 85px !important;
+}
+
+.li {
+    float: left !important;
+    padding-right: 130px !important;
+    /* padding-right: 50px !important; */
+    font-size: 30px
 };

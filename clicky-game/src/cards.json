@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "image": "/assets/images/beth.png",
+        "image": "/public/img/D1.jpeg",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "/assets/images/birdperson.png",
+        "image": "/public/img/D7.jpeg",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "/assets/images/evilmorty.png",
+        "image": "/public/img/D8.jpeg",
         "clicked": false
     }
 ]
