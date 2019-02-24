@@ -7,13 +7,9 @@ class Nav extends Component {
         return (
             <Navbar className="Navbar" right fixed>
                 <ul>
-                    <li className="li" >
-                        <li className="li">Clicky Game</li>
-                        <li className="li">Click an image to begin!</li>
-                    </li>
-                    <li className="brand">
-                        <li className="li"> Score: 0   Top Score: 0</li>
-                    </li>
+                    <li className="li">Clicky Game</li>
+                    <li className="li">Click an image to begin!</li>
+                    <li className="li"> Score: 0   Top Score: 0</li>
                 </ul>
             </Navbar>
         );

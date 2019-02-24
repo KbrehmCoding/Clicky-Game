@@ -4,7 +4,9 @@ import Cards from '../Cards/cards';
 class Game extends Component {
     render() {
         return (
-            <Cards />
+            <div class="gameContainer">
+                <Cards />
+            </div>
         );
     }
 }
