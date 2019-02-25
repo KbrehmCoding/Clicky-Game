@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Game from './components/Game/Game'
-// import Foot from './components/Foot/Foot'
 import Jumbo from './components/Jumbo/Jumbo'
 
 class App extends Component {
@@ -40,7 +39,6 @@ class App extends Component {
           />
           <Jumbo />
           <Game onCharacterClick={this.onCharacterClick} />
-          {/* <Foot /> */}
       </div>
     );
   }
