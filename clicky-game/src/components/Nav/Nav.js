@@ -9,10 +9,8 @@ class Nav extends Component {
                 <ul>
                     <li className="li">Clicky Game</li>
                     <li className="li">Click an image to begin!</li>
-                    {/*<li className="li">
-                        <h2>{`${this.props.primaryHeadingText} ${this.props.primaryHeadingValue}`}</h2>
-                        <h2>{`${this.props.secondaryHeadingText} ${this.props.secondaryHeadingValue}`}</h2>
-                    </li>*/}
+                    <li className="Score">{`${this.props.scoreText} ${this.props.value}`}</li>
+                    <li className="HighScore">{`${this.props.highScoreText} ${this.props.value2}`}</li>
                 </ul>
             </Navbar>
         );

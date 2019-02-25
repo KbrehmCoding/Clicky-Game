@@ -6,10 +6,20 @@ import Game from './components/Game/Game'
 import Jumbo from './components/Jumbo/Jumbo'
 
 class App extends Component {
+  state = {
+    highScore: 0,
+    score: 0,
+  };
+
   render() {
     return (
       <div className="appContainer">
-          <Nav />
+          <Nav
+            scoreText="Score: "
+            value={this.state.score}
+            highScoreText="HighScore: "
+            value2={this.state.highScore}
+          />
           <Jumbo />
           <Game />
           {/* <Foot /> */}

@@ -3,8 +3,10 @@
     height: 85px !important;
 }
 
-.li {
+.li,
+.Score,
+.HighScore {
     float: left !important;
     font-size: 30px;
-    padding-right: 130px !important;
+    padding-right: 100px !important;
 }
