@@ -6,9 +6,6 @@ import characters from '../../cards.json';
 class Game extends Component {
     state = {
         characters,
-        clickedList: [],
-        highScore: 0,
-        score: 0,
     };
 
     shuffleCharacters = () => {
@@ -23,24 +20,9 @@ class Game extends Component {
     };
 
     handleClick = id => {
-        const { clickedList, highScore, score } = this.state;
-        const isClicked = clickedList.includes(id);
-
-        if (isClicked) {
-            this.setState({
-                clickedList: [],
-                highScore: (score > highScore ? score : highScore),
-                score: 0,
-            });
-        } else {
-            this.setState({
-                clickedList: [...clickedList, id],
-                score: score + 1,
-            });
-        }
-
+        this.props.onCharacterClick(id);
         this.shuffleCharacters();
-    }
+    };
 
     render() {
         return (

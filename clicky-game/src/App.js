@@ -7,9 +7,27 @@ import Jumbo from './components/Jumbo/Jumbo'
 
 class App extends Component {
   state = {
+    clickedList: [],
     highScore: 0,
     score: 0,
   };
+
+  onCharacterClick = id => {
+    const { clickedList } = this.state;
+
+    if (clickedList.includes(id)) {
+        this.setState({
+            clickedList: [],
+            highScore: this.state.score > this.state.highScore ? this.state.score : this.state.highScore,
+            score: 0,
+        });
+    } else {
+        this.setState({
+            clickedList: [...clickedList, id],
+            score: this.state.score + 1,
+        });
+    }
+}
 
   render() {
     return (
@@ -21,7 +39,7 @@ class App extends Component {
             value2={this.state.highScore}
           />
           <Jumbo />
-          <Game />
+          <Game onCharacterClick={this.onCharacterClick} />
           {/* <Foot /> */}
       </div>
     );
