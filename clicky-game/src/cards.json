@@ -1,63 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/public/img/D1.jpeg",
+        "image": "img/D1.jpeg",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "/public/img/D2.png",
+        "image": "img/D2.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "/public/img/D3.png",
+        "image": "img/D3.png",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "/public/img/D4.png",
+        "image": "img/D4.png",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "/public/img/D5.png",
+        "image": "img/D5.png",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "/public/img/D6.jpeg",
+        "image": "img/D6.jpeg",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "/public/img/D7.jpeg",
+        "image": "img/D7.jpeg",
         "clicked": false
     },
     {
         "id": 8,
-        "image": "/public/img/D8.jpeg",
+        "image": "img/D8.jpeg",
         "clicked": false
     },
     {
         "id": 9,
-        "image": "/public/img/D9.jpeg",
+        "image": "img/D9.jpeg",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "/public/img/D10.png",
+        "image": "img/D10.png",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "/public/img/D11.png",
+        "image": "img/D11.png",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "/public/img/D12.jpg",
+        "image": "img/D12.jpg",
         "clicked": false
     }
-
 ]
