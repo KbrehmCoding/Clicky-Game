@@ -1,0 +1,13 @@
+{
+  "main.css": "link-to-your-repository/static/css/main.67f695b3.chunk.css",
+  "main.js": "link-to-your-repository/static/js/main.40801136.chunk.js",
+  "main.js.map": "link-to-your-repository/static/js/main.40801136.chunk.js.map",
+  "runtime~main.js": "link-to-your-repository/static/js/runtime~main.97da4cb0.js",
+  "runtime~main.js.map": "link-to-your-repository/static/js/runtime~main.97da4cb0.js.map",
+  "static/js/2.86f2e2f7.chunk.js": "link-to-your-repository/static/js/2.86f2e2f7.chunk.js",
+  "static/js/2.86f2e2f7.chunk.js.map": "link-to-your-repository/static/js/2.86f2e2f7.chunk.js.map",
+  "index.html": "link-to-your-repository/index.html",
+  "precache-manifest.0fc013073c1894fed71c06a6bad4e401.js": "link-to-your-repository/precache-manifest.0fc013073c1894fed71c06a6bad4e401.js",
+  "service-worker.js": "link-to-your-repository/service-worker.js",
+  "static/css/main.67f695b3.chunk.css.map": "link-to-your-repository/static/css/main.67f695b3.chunk.css.map"
+}
